@@ -10,7 +10,7 @@
       elevation="2"
     >
       <div class="drawer-header pa-6 d-flex flex-column align-center">
-        <v-img src="/favicon-96x96.png" height="50" width="50" contain class="mb-3"></v-img>
+        <v-img src="./favicon-96x96.png" height="50" width="50" contain class="mb-3"></v-img>
         <div class="text-center">
           <div class="text-subtitle-2 font-weight-black text-white">{{ dashboardTitle }}</div>
           <div class="text-caption text-gold">{{ dashboardSubtitle }}</div>
@@ -49,7 +49,7 @@
         <!-- Logo -->
         <router-link to="/" class="d-flex align-center text-decoration-none">
           <v-img
-            src="/favicon-96x96.png"
+            src="./favicon-96x96.png"
             alt="Logo"
             height="45"
             width="45"
@@ -178,7 +178,7 @@
             <div class="d-flex justify-center justify-md-start mb-6">
               <router-link to="/" class="d-inline-flex align-center text-decoration-none">
                 <v-img
-                  src="/favicon-96x96.png"
+                  src="./favicon-96x96.png"
                   alt="Logo"
                   height="50"
                   width="50"
