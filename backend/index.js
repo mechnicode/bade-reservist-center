@@ -23,7 +23,10 @@ console.log('檢查連線字串:', process.env.DB_URL)
 const app = express()
 
 // 2. 中間件設定
-app.use(cors())
+app.use(cors({
+  origin: true, // 允許所有來源
+  credentials: true
+}))
 app.use(express.json())
 app.use(passport.initialize()) // Initialize passport
 
