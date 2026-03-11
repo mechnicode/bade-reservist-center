@@ -73,7 +73,8 @@ mongoose
     console.log('✅ 成功連接到 MongoDB 資料庫')
   })
   .catch((error) => {
-    console.error('❌ 資料庫連接失敗:', error)
+    console.error('❌ 資料庫連接失敗詳細原因:', error.message)
+    console.error('❌ 完整的錯誤代碼:', error.code)
   })
 
 // 4. 測試路由
