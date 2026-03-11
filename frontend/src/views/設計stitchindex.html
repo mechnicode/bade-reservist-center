@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>八德區後備軍人輔導中心 - 精煉軍事風格</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700;800&amp;family=Noto+Sans+TC:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#d4af37", // Tactical Gold
+                        "safety-orange": "#ff6b00",
+                        "deep-charcoal": "#0a0c10",
+                        "tactical-navy": "#1a2333",
+                        "military-blue": "#0f172a",
+                        "background-dark": "#020617",
+                        "background-alt": "#f8fafc",
+                        "tactical-gray": "rgba(255, 255, 255, 0.1)",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "Noto Sans TC", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0rem",
+                        "lg": "0.125rem",
+                        "xl": "0.25rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer base {
+            body {
+                font-family: "Public Sans", "Noto Sans TC", sans-serif;
+            }
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .nav-link {
+            @apply text-slate-400 hover:text-white text-sm font-bold tracking-[0.15em] transition-colors uppercase;
+        }
+        .section-heading-line {
+            @apply h-1 w-12 bg-primary;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-slate-900 selection:bg-primary/30">
+    <div class="sticky top-0 z-50 w-full bg-deep-charcoal border-b border-white/5">
+        <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-12">
+            <header class="flex h-20 items-center justify-between">
+                <div class="flex items-center gap-4">
+                    <img alt="Bade Reservist Emblem" class="h-16 w-16 object-contain"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAu2rSV8yJczk9-DQFkoGySYPiRNDROWZ9yUEa4hEQE2JfHPhNG7sEsBMeCXf2RtswxHSXhS4uLW9kX9ot5T6ecBfM4Gm_abTmmo0BSHXIxKuXT6zm3rBI6QZa2YdZj3cu8B6zGhiS-bPsImgwsUvtW5zu9k9nF3cvFf5k2e8Pge8QpzWf6FIlXA7xH0nCeV7VZxstd-l0O4nnuIIEiG0ktcoK5cK_aS7my5BlM24XDt38L1PXbQOWTXGMi7jmzXYUnK8vMtkpqWL8" />
+                    <div class="flex flex-col">
+                        <h1 class="text-white text-xl font-black tracking-widest leading-none">八德區後備軍人</h1>
+                        <span class="text-primary text-xs font-bold tracking-[0.25em]">輔導中心</span>
+                    </div>
+                </div>
+                <nav class="hidden lg:flex items-center gap-10">
+                    <a class="text-white font-bold text-sm tracking-widest relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-0.5 after:bg-primary"
+                        href="#">首頁</a>
+                    <a class="nav-link" href="#">關於中心</a>
+                    <a class="nav-link" href="#">各項活動</a>
+                    <a class="nav-link" href="#">服務項目</a>
+                    <a class="nav-link" href="#">聯絡我們</a>
+                </nav>
+                <div class="flex items-center gap-4">
+                    <button
+                        class="bg-tactical-gray hover:bg-white/20 text-white px-6 py-2.5 font-bold text-sm tracking-widest transition-all border border-white/10 uppercase">
+                        登入系統
+                    </button>
+                    <button
+                        class="bg-safety-orange hover:bg-orange-600 text-white px-8 py-2.5 font-black text-sm tracking-widest transition-all shadow-lg uppercase">
+                        立即註冊
+                    </button>
+                </div>
+            </header>
+        </div>
+    </div>
+    <main>
+        <section class="relative w-full overflow-hidden bg-tactical-navy">
+            <div class="relative aspect-[21/9] md:aspect-[24/10] lg:aspect-[3/1] w-full">
+                <div
+                    class="absolute inset-0 bg-gradient-to-r from-military-blue via-military-blue/40 to-transparent z-10">
+                </div>
+                <div class="absolute inset-0 w-full h-full bg-cover bg-center"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBlGbA9Ft_caQE0yhTcuS1rhL6u3iHgLaeb1g8tgmVQ1QS1gwA-r9SaPapCFgbFQTYFnML5_oan-5gJnGxl_lU4jaR0CtmQ37LuiQvMvNx2Um9f5Kei34cMHxT7N1yhzUDOVYmRtTkcFx-kW_e9MbZ3LDH8qpNxajcViFfFIxbPxOgSB213H5rEA7byzsg6C2aVMRnPi3puwHTIwktJQYFoCaMj3UsVHSMiq3aa1y1o0mpszJ7udfiLDO4HLzcIW4Iz5bOxqEqSiGA");'>
+                </div>
+                <div
+                    class="relative z-20 h-full flex flex-col justify-center px-6 md:px-12 lg:px-24 max-w-7xl mx-auto text-white">
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="section-heading-line"></span>
+                        <span class="text-primary font-bold tracking-[0.4em] uppercase text-xs">Dynamic Readiness</span>
+                    </div>
+                    <h2 class="text-4xl md:text-6xl lg:text-7xl font-black mb-8 leading-tight tracking-tighter">
+                        深化後備動員<br /><span
+                            class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-yellow-400">守護家園安全</span>
+                    </h2>
+                    <p
+                        class="text-lg md:text-xl text-slate-300 font-medium max-w-xl leading-relaxed mb-10 border-l-4 border-primary pl-6">
+                        透過專業訓練與社區參與，我們共同建立強韌的國防後盾，維護社會安寧與發展。
+                    </p>
+                    <div class="flex gap-4">
+                        <button
+                            class="bg-primary text-military-blue px-10 py-4 font-black tracking-widest hover:bg-white transition-colors uppercase">
+                            了解更多
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-24 bg-white">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <span class="text-primary font-black tracking-[0.4em] mb-4 block text-xs uppercase">Bade District</span>
+                <h2 class="text-slate-900 text-4xl lg:text-5xl font-black mb-10 tracking-tight">八德區後備軍人輔導中心</h2>
+                <div class="flex justify-center gap-2 mb-10">
+                    <div class="h-1 w-8 bg-slate-200"></div>
+                    <div class="h-1 w-16 bg-primary"></div>
+                    <div class="h-1 w-8 bg-slate-200"></div>
+                </div>
+                <p class="text-slate-600 text-xl leading-loose font-medium">
+                    本中心致力於連結後備夥伴，強化動員準備，並積極參與社區服務。我們秉持「專業、服務、榮譽」的精神，為八德區後備軍人提供最完善的輔導與協助。無論是活動辦理、政策宣導或是榮民關懷，我們始終與您站在第一線。
+                </p>
+            </div>
+        </section>
+        <section class="py-24 bg-background-alt border-y border-slate-200">
+            <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                    <div>
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="material-symbols-outlined text-primary text-4xl">military_tech</span>
+                            <h2 class="text-3xl font-black text-military-blue tracking-tight uppercase">Latest
+                                Activities</h2>
+                        </div>
+                        <p class="text-slate-500 font-bold tracking-widest text-sm">最新活動資訊與召集公告</p>
+                    </div>
+                    <a class="group text-military-blue font-black tracking-widest flex items-center gap-2 border-b-2 border-primary pb-2 hover:text-primary transition-colors"
+                        href="#">
+                        查看全部活動 <span
+                            class="material-symbols-outlined text-xl group-hover:translate-x-1 transition-transform">arrow_right_alt</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div
+                        class="group bg-white border border-slate-200 overflow-hidden transition-all duration-300 hover:shadow-xl">
+                        <div class="relative h-56 overflow-hidden">
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAidUzy50wXpmrYxXO0o1qpaOKGb4p-plWKf_mIhIBkSDpgSTG0znQMQEwlThHbO8-EhB9Fyva-0tGagIxEmspowtc6E5t1o8xDARd_CQPVu5EwYPgHv8_SwxU8I-DK3sjX5coqjyNpBip87Wj_Wpw1nkfC8dTzrYfwsvkXBcqqZS7v4FnVJuGyIPIxEpEqwXwOlKGx-q4u4cK0VBsgetli5ud26gha87gGhDuAGGmM05tXlhgst_jht9-r-9MHcH-gSV5h1jycWgI");'>
+                            </div>
+                            <div
+                                class="absolute top-4 left-4 bg-safety-orange text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest">
+                                Ongoing</div>
+                        </div>
+                        <div class="p-8">
+                            <div class="flex items-center gap-2 text-slate-400 font-bold text-xs mb-4">
+                                <span class="material-symbols-outlined text-sm">calendar_month</span>
+                                <span>2024.11.15</span>
+                            </div>
+                            <h3
+                                class="text-2xl font-black mb-4 text-military-blue group-hover:text-primary transition-colors">
+                                後備英雄公益路跑</h3>
+                            <p class="text-slate-500 font-medium text-sm mb-6 line-clamp-2">
+                                邀請八德區後備袍澤與家屬一同參與，跑出健康，跑出愛心。報名所得將全數捐贈在地弱勢團體。</p>
+                            <button
+                                class="w-full py-4 border-2 border-military-blue text-military-blue font-black tracking-widest hover:bg-military-blue hover:text-white transition-all">立即報名</button>
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white border border-slate-200 overflow-hidden transition-all duration-300 hover:shadow-xl">
+                        <div class="relative h-56 overflow-hidden">
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCRZkXA_hD7bVaqT0cPZ1aXv2IgGQaHtiZsm4rdyxNbIsIX2wSKTzu5hHBChc0sq3bKdXPi9KYbMQDxhx3aNkXWVAicTZrDzQlhZHkPEjh0MrvuyfKaBo2MtDabVM5rYBT6Lzdt6ykZvpD-EwJWEQeWmkprojqQ2YRapXQGLX0k06LHoWjBZzPhjbuP6_W2Vplq_QaIxAOal3oVnxXUsKSOFph43eurGDku0YcbZOlNBREwbLmvdLDJdrPfqUTqtOqMt578_4PDiVo");'>
+                            </div>
+                            <div
+                                class="absolute top-4 left-4 bg-slate-900 text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest">
+                                Notice</div>
+                        </div>
+                        <div class="p-8">
+                            <div class="flex items-center gap-2 text-slate-400 font-bold text-xs mb-4">
+                                <span class="material-symbols-outlined text-sm">calendar_month</span>
+                                <span>2024.12.02</span>
+                            </div>
+                            <h3
+                                class="text-2xl font-black mb-4 text-military-blue group-hover:text-primary transition-colors">
+                                年度動員召集協助講習</h3>
+                            <p class="text-slate-500 font-medium text-sm mb-6 line-clamp-2">
+                                為提升動員效率，針對輔導中心各級幹部進行年度任務講習與操作訓練，強化應變能力。</p>
+                            <button
+                                class="w-full py-4 border-2 border-military-blue text-military-blue font-black tracking-widest hover:bg-military-blue hover:text-white transition-all">立即報名</button>
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white border border-slate-200 overflow-hidden transition-all duration-300 hover:shadow-xl">
+                        <div class="relative h-56 overflow-hidden">
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDoSVBHactWTd3mURLl7j8B_NIJnbFR3KgXVbQz-Oo-RN-b4VKK0kqt2tSTTAAKl9vCrDb6bTXtaz6FxJMsg7KoBs1IRoSeWpqP0p3tgL8TRJ9VMHuuWKdtYxXMqvA7wopB2d8UL4xuBMH-FAQ7p2YVa8gCqKzU-P-vlAb1biV7GQJOpAf4VV1-ZVV4jVMa37AUFHA88L86Pk7VJz1hSVXBxwO_v81s_fxd5O-_o5H4l4Ouxr3GX294riw2uC0l_sTXPKuC7OPUwDA");'>
+                            </div>
+                            <div
+                                class="absolute top-4 left-4 bg-safety-orange text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest">
+                                Community</div>
+                        </div>
+                        <div class="p-8">
+                            <div class="flex items-center gap-2 text-slate-400 font-bold text-xs mb-4">
+                                <span class="material-symbols-outlined text-sm">calendar_month</span>
+                                <span>2024.12.20</span>
+                            </div>
+                            <h3
+                                class="text-2xl font-black mb-4 text-military-blue group-hover:text-primary transition-colors">
+                                在地榮民關懷座談會</h3>
+                            <p class="text-slate-500 font-medium text-sm mb-6 line-clamp-2">
+                                聽取退伍袍澤心聲，提供政策說明與福利諮詢，落實政府照顧榮民之政策，建立溝通橋樑。</p>
+                            <button
+                                class="w-full py-4 border-2 border-military-blue text-military-blue font-black tracking-widest hover:bg-military-blue hover:text-white transition-all">立即報名</button>
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white border border-slate-200 overflow-hidden transition-all duration-300 hover:shadow-xl">
+                        <div class="relative h-56 overflow-hidden">
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBlGbA9Ft_caQE0yhTcuS1rhL6u3iHgLaeb1g8tgmVQ1QS1gwA-r9SaPapCFgbFQTYFnML5_oan-5gJnGxl_lU4jaR0CtmQ37LuiQvMvNx2Um9f5Kei34cMHxT7N1yhzUDOVYmRtTkcFx-kW_e9MbZ3LDH8qpNxajcViFfFIxbPxOgSB213H5rEA7byzsg6C2aVMRnPi3puwHTIwktJQYFoCaMj3UsVHSMiq3aa1y1o0mpszJ7udfiLDO4HLzcIW4Iz5bOxqEqSiGA");'>
+                            </div>
+                        </div>
+                        <div class="p-8">
+                            <div class="flex items-center gap-2 text-slate-400 font-bold text-xs mb-4">
+                                <span class="material-symbols-outlined text-sm">calendar_month</span>
+                                <span>2025.01.10</span>
+                            </div>
+                            <h3
+                                class="text-2xl font-black mb-4 text-military-blue group-hover:text-primary transition-colors">
+                                春節慰問各里後備幹部</h3>
+                            <p class="text-slate-500 font-medium text-sm mb-6 line-clamp-2">
+                                為感謝各里幹部一年來的辛勞，中心將於春節前夕走訪各里，致贈年節禮盒與表達誠摯謝意。</p>
+                            <button
+                                class="w-full py-4 border-2 border-military-blue text-military-blue font-black tracking-widest hover:bg-military-blue hover:text-white transition-all">詳細資訊</button>
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white border border-slate-200 overflow-hidden transition-all duration-300 hover:shadow-xl">
+                        <div class="relative h-56 overflow-hidden">
+                            <div class="absolute inset-0 bg-slate-900 flex items-center justify-center">
+                                <span class="material-symbols-outlined text-white/20 text-7xl">shield</span>
+                            </div>
+                        </div>
+                        <div class="p-8">
+                            <div class="flex items-center gap-2 text-slate-400 font-bold text-xs mb-4">
+                                <span class="material-symbols-outlined text-sm">calendar_month</span>
+                                <span>2025.02.05</span>
+                            </div>
+                            <h3
+                                class="text-2xl font-black mb-4 text-military-blue group-hover:text-primary transition-colors">
+                                國防安全教育巡迴講習</h3>
+                            <p class="text-slate-500 font-medium text-sm mb-6 line-clamp-2">
+                                提升全民國防意識，深入社區與學校推廣國防安全知識，建立正確的國防觀念。</p>
+                            <button
+                                class="w-full py-4 border-2 border-military-blue text-military-blue font-black tracking-widest hover:bg-military-blue hover:text-white transition-all">詳細資訊</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="relative py-32 overflow-hidden bg-military-blue">
+            <div
+                class="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]">
+            </div>
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent">
+            </div>
+            <div class="relative max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+                <div
+                    class="bg-white/5 backdrop-blur-md border border-white/10 p-12 lg:p-24 text-center relative overflow-hidden">
+                    <div class="absolute -top-12 -right-12 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
+                    <div class="max-w-4xl mx-auto">
+                        <h2 class="text-white text-4xl lg:text-7xl font-black mb-10 tracking-tight leading-[1.1]">
+                            你的參與，<br />決定後備力量的厚度
+                        </h2>
+                        <p class="text-slate-300 text-xl lg:text-2xl font-medium leading-loose mb-14">
+                            每一份投入都是對國家安全最實質的貢獻。加入我們，不僅是履行義務，更是展現守護家園的決心與榮耀。
+                        </p>
+                        <div class="flex flex-col sm:flex-row justify-center gap-6">
+                            <button
+                                class="bg-primary hover:bg-white text-military-blue px-14 py-5 font-black text-lg tracking-[0.2em] transition-all shadow-2xl">
+                                立即加入我們
+                            </button>
+                            <button
+                                class="border-2 border-white/30 hover:border-white text-white px-14 py-5 font-black text-lg tracking-[0.2em] transition-all bg-white/5">
+                                聯絡諮詢
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-deep-charcoal text-white pt-24 pb-12 border-t border-white/5">
+        <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-16 mb-20">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="flex items-center gap-4 mb-8">
+                        <img alt="Bade Reservist Emblem" class="h-12 w-12 object-contain grayscale brightness-200"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAu2rSV8yJczk9-DQFkoGySYPiRNDROWZ9yUEa4hEQE2JfHPhNG7sEsBMeCXf2RtswxHSXhS4uLW9kX9ot5T6ecBfM4Gm_abTmmo0BSHXIxKuXT6zm3rBI6QZa2YdZj3cu8B6zGhiS-bPsImgwsUvtW5zu9k9nF3cvFf5k2e8Pge8QpzWf6FIlXA7xH0nCeV7VZxstd-l0O4nnuIIEiG0ktcoK5cK_aS7my5BlM24XDt38L1PXbQOWTXGMi7jmzXYUnK8vMtkpqWL8" />
+                        <h2 class="text-xl font-black tracking-widest leading-none">八德區後備軍人<br /><span
+                                class="text-primary text-sm font-bold">輔導中心</span></h2>
+                    </div>
+                    <p class="text-slate-500 text-sm font-medium leading-relaxed mb-8">守護家園、服務袍澤、強化國防、深耕社區。我們與您攜手共築安全防線。
+                    </p>
+                    <div class="flex gap-4">
+                        <a class="w-10 h-10 border border-slate-800 flex items-center justify-center hover:bg-primary hover:border-primary transition-colors text-slate-400 hover:text-military-blue"
+                            href="#"><span class="material-symbols-outlined text-xl">share</span></a>
+                        <a class="w-10 h-10 border border-slate-800 flex items-center justify-center hover:bg-primary hover:border-primary transition-colors text-slate-400 hover:text-military-blue"
+                            href="#"><span class="material-symbols-outlined text-xl">rss_feed</span></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-primary font-black tracking-widest mb-8 uppercase text-sm">快速連結</h3>
+                    <ul class="space-y-4 text-slate-400 text-sm font-bold">
+                        <li><a class="hover:text-white transition-colors" href="#">中心簡介</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">組織架構</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">服務項目</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">最新消息</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-primary font-black tracking-widest mb-8 uppercase text-sm">相關網站</h3>
+                    <ul class="space-y-4 text-slate-400 text-sm font-bold">
+                        <li><a class="hover:text-white transition-colors" href="#">國防部後備指揮部</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">桃園市後備指揮部</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">八德區公所</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-primary font-black tracking-widest mb-8 uppercase text-sm">聯絡資訊</h3>
+                    <ul class="space-y-6 text-slate-400 text-sm font-medium">
+                        <li class="flex items-start gap-4">
+                            <span class="material-symbols-outlined text-primary">location_on</span>
+                            <span class="leading-relaxed">桃園市八德區中山路一段1號</span>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <span class="material-symbols-outlined text-primary">call</span>
+                            <span class="tracking-widest">(03) 368-XXXX</span>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <span class="material-symbols-outlined text-primary">mail</span>
+                            <span class="break-all">bade.reservist@mail.gov.tw</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center gap-6 text-slate-600 text-[10px] font-black uppercase tracking-widest">
+                <p>© 2024 八德區後備軍人輔導中心 BADE RESERVIST CENTER. ALL RIGHTS RESERVED.</p>
+                <div class="flex gap-8">
+                    <a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+                    <a class="hover:text-white transition-colors" href="#">Security Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
